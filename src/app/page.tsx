@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PhoneIcon, MapPinIcon } from "@heroicons/react/24/outline";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp
+  , FaInstagram } from "react-icons/fa";
 //import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
