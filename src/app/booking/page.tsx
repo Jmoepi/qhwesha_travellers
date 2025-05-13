@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default function BookingPage() {
   const formRef = useRef<HTMLFormElement>(null);
-
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = formRef.current;

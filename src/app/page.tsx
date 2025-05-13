@@ -88,21 +88,21 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="text-center p-6 rounded-xl hover:shadow-lg transition-shadow">
                 <div className="w-20 h-20 mx-auto mb-6 bg-blue-50 rounded-full flex items-center justify-center">
-                  <Image src="/placeholder-icon-1.svg" alt="Safety" width={40} height={40} />
+                  <Image src="/shuttle.png" alt="Safety" width={40} height={40} />
                 </div>
                 <h3 className="text-2xl font-semibold mb-4 text-black">Safe Travel</h3>
                 <p className="text-gray-600">Professional drivers and well-maintained vehicles for your peace of mind</p>
               </div>
               <div className="text-center p-6 rounded-xl hover:shadow-lg transition-shadow">
                 <div className="w-20 h-20 mx-auto mb-6 bg-blue-50 rounded-full flex items-center justify-center">
-                  <Image src="/placeholder-icon-2.svg" alt="Comfort" width={40} height={40} />
+                  <Image src="/relax.png" alt="Comfort" width={40} height={40} />
                 </div>
                 <h3 className="text-2xl font-semibold mb-4 text-black">Comfortable Rides</h3>
                 <p className="text-gray-600">Spacious vehicles with modern amenities for a pleasant journey</p>
               </div>
               <div className="text-center p-6 rounded-xl hover:shadow-lg transition-shadow">
                 <div className="w-20 h-20 mx-auto mb-6 bg-blue-50 rounded-full flex items-center justify-center">
-                  <Image src="/placeholder-icon-3.svg" alt="Routes" width={40} height={40} />
+                  <Image src="/track.png" alt="Routes" width={40} height={40} />
                 </div>
                 <h3 className="text-2xl font-semibold mb-4 text-black">Extensive Routes</h3>
                 <p className="text-gray-600">Covering South Africa and neighboring countries with regular schedules</p>
