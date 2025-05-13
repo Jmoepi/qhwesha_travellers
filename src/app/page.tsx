@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PhoneIcon, MapPinIcon } from "@heroicons/react/24/outline";
-import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+//import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
               >
                 <FaWhatsapp className="w-6 h-6" />
               </a>
-              <a
+              {/* <a
                 href="https://facebook.com/qhweshatravellers"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,9 +38,9 @@ export default function Home() {
                 aria-label="Facebook"
               >
                 <FaFacebook className="w-6 h-6" />
-              </a>
+              </a> */}
               <a
-                href="https://instagram.com/qhweshatravellers"
+                href="https://instagram.com/qhwesha01"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-pink-400 transition-colors"
